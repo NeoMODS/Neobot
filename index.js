@@ -1,4 +1,4 @@
-//Bot By NeoMods
+//Bot By ConfuMods
 
 
 const {
@@ -81,10 +81,10 @@ const sleep = async (ms) => {
 }
 
 
-NeoMods = [`50254371795@s.whatsapp.net`] 
+ConfuMods = [`50254371795@s.whatsapp.net`] 
 prefix = '#'
 blocked = []
-fake = '𝓝𝓮𝓸𝓑𝓞𝓣
+fake = '༊𝕮࿆𝖔ྂ𝖓𝖋𝖚ྂ𝕭𝖔ྂ𝖙࿆࿑'
 fakeimage = fs.readFileSync(`./media/confu.jpeg`)
 numbernye = '10'
 public = true
@@ -142,7 +142,7 @@ const BarBarKey = 'IDxO1TFYnKADlX4pxcHa'
 const VhtearKey = '1BlnApiIkyPake'
 const XteamKey = 'd39b4b3fc7dba'
 const TobzApi = 'Bidmzz1sJ2L1TKyqaMEU'
-const ZeksApi = '𝓝𝓮𝓸𝓑𝓞𝓣
+const ZeksApi = '༊𝕮࿆𝖔ྂ𝖓𝖋𝖚ྂ𝕭𝖔ྂ𝖙࿆࿑'
 const LolKey = 'save123'
 lolkey = '682aeab645ed61cf137cf971'
 function kyun(seconds){
@@ -242,7 +242,7 @@ Es una gran satisfacción tenerte de nuestro lado, espero disfrutes de tu estad�
 
 🈳⊳SUSCRIBETE A NUESTRO CANAL OFICIAL EN EL SIGUIENTE ENLACE📱↓↓
             
-🈳⊳https://www.youtube.com/channel/UCoUfEWOggoacCioKJof79AQ`
+🈳⊳https://youtube.com/c/ConfuMods 💙`
 				let buff = await getBuffer(ppimg)
 				cnf.sendMessage(mdata.id, buff, MessageType.image, {caption: teks, contextInfo: {"mentionedJid": [num]}})
 				}
@@ -338,7 +338,7 @@ const groupDesc = isGroup ? groupMetadata.desc : ''
             			const isBanned = ban.includes(sender)
             const isLevelingOn = isGroup ? _leveling.includes(from) : false						
 			const isSimi = isGroup ? samih.includes(from) : false
-			const isOwner = NeoMods.includes(sender)
+			const isOwner = ConfuMods.includes(sender)
 			const button = (type == 'buttonsResponseMessage') ? mek.message.buttonsResponseMessage.selectedDisplayText : ''
 			const isMe = botNumber.includes(senderme)
 			let pushname = cnf.contacts[sender] != undefined ? cnf.contacts[sender].vname || cnf.contacts[sender].notify: undefined
@@ -828,7 +828,7 @@ const fakethumb = (teks, yes) => {
 						"jpegThumbnail": fs.readFileSync(`./sticker/thumb.jpeg`)
 					},
 					"title": `Hola ${pushname}, ${ucapanWaktu}`,
-					"retailerId": "Neo bot",
+					"retailerId": "Confu bot",
 					"productImageCount": 1
 				},
 				"businessOwnerJid": `0@s.whatsapp.net`
@@ -912,7 +912,7 @@ key: {
 					"description": "༊𝕮࿆𝖔ྂ𝖓𝖋𝖚ྂ𝕭𝖔ྂ𝖙࿆࿑",
 					"currencyCode": "USD",
 					"priceAmount1000": "1000000000",
-					"retailerId": "Neo",
+					"retailerId": "Confu",
 					"productImageCount": 1
 				},
 				"businessOwnerJid": `0@s.whatsapp.net`
@@ -1132,7 +1132,7 @@ const sosGay = checkATMuser(sender)
 *║◄🥀┢┅ீ͜ৡৢ͜͡✦━◇━ீ͜ৡৢ͜͡✦┅┧🥀►*
 *║┊:*      ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈  
 *║┊:𝑪𝒓𝒆𝒂𝒅𝒐𝒓 : 𝑪𝒐𝒏𝒇𝒖*
-*║┊:YT : NeoMods*
+*║┊:YT : ConfuMods*
 *║┊:𝑵𝒖𝒎𝒆𝒓𝒐 : wa.me/50254371795*
 *║┊:*      ┈ ┈ ┈ ┈ ┈  ┈ ┈ ┈ 
 *║◄🌹┢┅ீ͜ৡৢ͜͡✦━◇━ீ͜ৡৢ͜͡✦┅┧🌹►*
@@ -1584,7 +1584,7 @@ if (!isRegistered) return reply(ind.noregis())
             imageToBase64(pjr)
             .then((response) => {
             media =  Buffer.from(response, 'base64');
-            cnf.sendMessage(from,media,image,{quoted:mek,caption:'𝓝𝓮𝓸𝓑𝓞𝓣})
+            cnf.sendMessage(from,media,image,{quoted:mek,caption:'༊𝕮࿆𝖔ྂ𝖓𝖋𝖚ྂ𝕭𝖔ྂ𝖙࿆࿑'})
             }
             )
             .catch((error) => {
@@ -1641,7 +1641,7 @@ confirmATM(sender, 30)
          	   case prefix+'creador':
          	   case prefix+'creadores':
          	   if (isBanned) return  reply(mess.banned)
-                  cnf.sendMessage(from, {displayname: "Neo", vcard: vcard}, MessageType.contact, { quoted: mek})
+                  cnf.sendMessage(from, {displayname: "Confu", vcard: vcard}, MessageType.contact, { quoted: mek})
                             cnf.sendMessage(from, 'El es mi creador 🥵 re secsi ᕙ( : ˘ ∧ ˘ : )ᕗ',MessageType.text, { quoted: mek} )
 					addFilter(from)
           break    
@@ -1947,7 +1947,7 @@ if (!isRegistered) return reply(ind.noregis())
 			fs.unlinkSync(media)
 			if (err) return reply('Hubo un fallo, por favor intentalo de nuevo ')
 			buffer = fs.readFileSync(ran)
-			fakethumb(buffer,'𝓝𝓮𝓸𝓑𝓞𝓣)
+			fakethumb(buffer,'༊𝕮࿆𝖔ྂ𝖓𝖋𝖚ྂ𝕭𝖔ྂ𝖙࿆࿑')
 			fs.unlinkSync(ran)
 			})
 			addFilter(from)
@@ -2292,7 +2292,7 @@ if (isBanned) return  reply(mess.banned)
           
 if (!isRegistered) return reply(ind.noregis())			  
                     if ((isMedia && !mek.message.videoMessage || isQuotedImage)) {
-                        if (args.length == 0) return reply(`Ejemplo: ${prefix + command} Neo|Mods`)
+                        if (args.length == 0) return reply(`Ejemplo: ${prefix + command} Confu|Mods`)
                         const encmedia = isQuotedImage ? JSON.parse(JSON.stringify(mek).replace('quotedM', 'm')).message.extendedTextMessage.contextInfo : lol
                         filePath = await cnf.downloadAndSaveMediaMessage(encmedia, filename = getRandom());
                         file_name = getRandom(".webp")
@@ -2444,9 +2444,9 @@ if (!isRegistered) return reply(ind.noregis())
 				if (isMedia && !mek.message.videoMessage || isQuotedImage) {
 					const encmedia = isQuotedImage ? JSON.parse(JSON.stringify(mek).replace('quotedM', 'm')).message.extendedTextMessage.contextInfo : mek
 const media = await cnf.downloadAndSaveMediaMessage(encmedia, `./trash/${sender}`)
-					const packname1 = (`Neo`)
+					const packname1 = (`Confu`)
 					const author1 = (`Mods`)
-					exif.create(packname1, author1, `Neo_${sender}`)
+					exif.create(packname1, author1, `confu_${sender}`)
 					await ffmpeg(`${media}`)
 							.input(media)
 							.on('start', function (cmd) {
@@ -2459,12 +2459,12 @@ const media = await cnf.downloadAndSaveMediaMessage(encmedia, `./trash/${sender}
 							})
 							.on('end', function () {
 								console.log('Listo')
-								exec(`webpmux -set exif ./trash/Neo_${sender}.exif ./trash/${sender}.webp -o ./trash/${sender}.webp`, async (error) => {
+								exec(`webpmux -set exif ./trash/confu_${sender}.exif ./trash/${sender}.webp -o ./trash/${sender}.webp`, async (error) => {
 									if (error) return reply('*error ╥﹏╥*')
 									cnf.sendMessage(from, fs.readFileSync(`./trash/${sender}.webp`), sticker)
 									fs.unlinkSync(media)	
 									fs.unlinkSync(`./trash/${sender}.webp`)	
-									fs.unlinkSync(`./trash/Neo_${sender}.exif`)
+									fs.unlinkSync(`./trash/confu_${sender}.exif`)
 								})
 							})
 							.addOutputOptions([`-vcodec`,`libwebp`,`-vf`,`scale='min(320,iw)':min'(320,ih)':force_original_aspect_ratio=decrease,fps=15, pad=320:320:-1:-1:color=white@0.0, split [a][b]; [a] palettegen=reserve_transparent=on:transparency_color=ffffff [p]; [b][p] paletteuse`])
@@ -2473,9 +2473,9 @@ const media = await cnf.downloadAndSaveMediaMessage(encmedia, `./trash/${sender}
 				} else if ((isMedia && mek.message.videoMessage.fileLength < 10000000 || isQuotedVideo && mek.message.extendedTextMessage.contextInfo.quotedMessage.videoMessage.fileLength < 10000000)) {
 										const encmedia = isQuotedVideo ? JSON.parse(JSON.stringify(mek).replace('quotedM', 'm')).message.extendedTextMessage.contextInfo : mek
 					const media = await cnf.downloadAndSaveMediaMessage(encmedia, `./trash/${sender}`)
-					const packname1 = (`Neo`)
+					const packname1 = (`Confu`)
 					const author1 = (`Mods`)
-					exif.create(packname1, author1, `Neo_${sender}`)
+					exif.create(packname1, author1, `confu_${sender}`)
 					reply(mess.wait)
 						await ffmpeg(`${media}`)
 							.inputFormat(media.split('.')[4])
@@ -2490,12 +2490,12 @@ const media = await cnf.downloadAndSaveMediaMessage(encmedia, `./trash/${sender}
 							})
 							.on('end', function () {
 								console.log('Finish')
-								exec(`webpmux -set exif ./trash/Neo_${sender}.exif ./trash/${sender}.webp -o ./trash/${sender}.webp`, async (error) => {
+								exec(`webpmux -set exif ./trash/confu_${sender}.exif ./trash/${sender}.webp -o ./trash/${sender}.webp`, async (error) => {
 									if (error) return reply('error (╥﹏╥)')
 									cnf.sendMessage(from, fs.readFileSync(`./trash/${sender}.webp`), sticker)									
 									fs.unlinkSync(media)
 									fs.unlinkSync(`./trash/${sender}.webp`)
-									fs.unlinkSync(`./trash/Neo_${sender}.exif`)
+									fs.unlinkSync(`./trash/confu_${sender}.exif`)
 								})
 							})
 							.addOutputOptions([`-vcodec`,`libwebp`,`-vf`,`scale='min(320,iw)':min'(320,ih)':force_original_aspect_ratio=decrease,fps=15, pad=320:320:-1:-1:color=white@0.0, split [a][b]; [a] palettegen=reserve_transparent=on:transparency_color=ffffff [p]; [b][p] paletteuse`])
@@ -2540,7 +2540,7 @@ if (!isRegistered) return reply(ind.noregis())
 ├‣ *Número del bot* : 
 ├‣@${me.jid.split('@')[0]}
 │
-├‣ *Dueño* : NeoMods 
+├‣ *Dueño* : ConfuMods 
 ├‣ *Prefijo* : ${prefix}
 │
 ├‣ *Usuarios bloqueados* : 
@@ -2553,7 +2553,7 @@ if (!isRegistered) return reply(ind.noregis())
 ├‣${totalchat.length}
 │
 ├‣ *YT* : 
-├‣https://www.youtube.com/channel/UCoUfEWOggoacCioKJof79AQ
+├‣youtube.com/c/ConfuMods
 └─────────────`
   weww = fs.readFileSync(`./media/cnf.jpeg`)
   cnf.sendMessage(from, weww, image, {
@@ -3372,8 +3372,8 @@ if (!isRegistered) return reply(ind.noregis())
 const loljñññño = [`${loluaangkauuuuuu}`]
 if (loljñññño < 30) return reply(`𝐋𝐨 𝐬𝐢𝐞𝐧𝐭𝐨 𝐜𝐨𝐢𝐧𝐬 𝐢𝐧𝐬𝐮𝐟𝐢𝐜𝐢𝐞𝐧𝐭𝐞𝐬.`)
 confirmATM(sender, 30) 	
-	Neo = args.join(' ')
-	sendMediaURL(from, `https://bx-hunter.herokuapp.com/api/flamingtext/halloween?text=${Neo}&apikey=Ikyy69`)
+	confu = args.join(' ')
+	sendMediaURL(from, `https://bx-hunter.herokuapp.com/api/flamingtext/halloween?text=${confu}&apikey=Ikyy69`)
 reply('𝐒𝐞 𝐭𝐞 𝐜𝐨𝐛𝐫𝐚𝐫𝐨𝐧 𝟑𝟎 𝐜𝐨𝐢𝐧𝐬')
       addFilter(from)
           break
@@ -3386,8 +3386,8 @@ reply('𝐒𝐞 𝐭𝐞 𝐜𝐨𝐛𝐫𝐚𝐫𝐨𝐧 𝟑𝟎 𝐜𝐨𝐢�
       const tjññññño = [`${tuaangkauuuuuuu}`]
       if (tjññññño < 30) return reply(`𝐋𝐨 𝐬𝐢𝐞𝐧𝐭𝐨 𝐜𝐨𝐢𝐧𝐬 𝐢𝐧𝐬𝐮𝐟𝐢𝐜𝐢𝐞𝐧𝐭𝐞𝐬.`)
       confirmATM(sender, 30) 	
-      Neo = args.join(' ')
-      sendMediaURL(from, `https://bx-hunter.herokuapp.com/api/flamingtext/vampire?text=${Neo}&apikey=Ikyy69`)
+      confu = args.join(' ')
+      sendMediaURL(from, `https://bx-hunter.herokuapp.com/api/flamingtext/vampire?text=${confu}&apikey=Ikyy69`)
       reply('𝐒𝐞 𝐭𝐞 𝐜𝐨𝐛𝐫𝐚𝐫𝐨𝐧 𝟑𝟎 𝐜𝐨𝐢𝐧𝐬')
       addFilter(from)
           break
@@ -3400,8 +3400,8 @@ reply('𝐒𝐞 𝐭𝐞 𝐜𝐨𝐛𝐫𝐚𝐫𝐨𝐧 𝟑𝟎 𝐜𝐨𝐢�
       const wjñññññño = [`${wuaangkauuuuuuuu}`]
       if (wjñññññño < 30) return reply(`𝐋𝐨 𝐬𝐢𝐞𝐧𝐭𝐨 𝐜𝐨𝐢𝐧𝐬 𝐢𝐧𝐬𝐮𝐟𝐢𝐜𝐢𝐞𝐧𝐭𝐞𝐬.`)
       confirmATM(sender, 30) 	
-      Neo = args.join(' ')
-      sendMediaURL(from, `https://bx-hunter.herokuapp.com/api/maker/carbon?code=${Neo}&apikey=Ikyy69`)
+      confu = args.join(' ')
+      sendMediaURL(from, `https://bx-hunter.herokuapp.com/api/maker/carbon?code=${confu}&apikey=Ikyy69`)
       reply('𝐒𝐞 𝐭𝐞 𝐜𝐨𝐛𝐫𝐚𝐫𝐨𝐧 𝟑𝟎 𝐜𝐨𝐢𝐧𝐬')
       addFilter(from)
           break
@@ -3414,8 +3414,8 @@ reply('𝐒𝐞 𝐭𝐞 𝐜𝐨𝐛𝐫𝐚𝐫𝐨𝐧 𝟑𝟎 𝐜𝐨𝐢�
       const bjññññño = [`${buaangkauuuuuuu}`]
       if (bjññññño < 30) return reply(`𝐋𝐨 𝐬𝐢𝐞𝐧𝐭𝐨 𝐜𝐨𝐢𝐧𝐬 𝐢𝐧𝐬𝐮𝐟𝐢𝐜𝐢𝐞𝐧𝐭𝐞𝐬.`)
       confirmATM(sender, 30) 	
-	  Neo = args.join(' ')
- 	  sendMediaURL(from, `https://bx-hunter.herokuapp.com/api/flamingtext/matrix?text=${Neo}&apikey=Ikyy69`)
+	  confu = args.join(' ')
+ 	  sendMediaURL(from, `https://bx-hunter.herokuapp.com/api/flamingtext/matrix?text=${confu}&apikey=Ikyy69`)
       reply('𝐒𝐞 𝐭𝐞 𝐜𝐨𝐛𝐫𝐚𝐫𝐨𝐧 𝟑𝟎 𝐜𝐨𝐢𝐧𝐬')
 	  addFilter(from)
           break
@@ -3428,8 +3428,8 @@ reply('𝐒𝐞 𝐭𝐞 𝐜𝐨𝐛𝐫𝐚𝐫𝐨𝐧 𝟑𝟎 𝐜𝐨𝐢�
       const jñbñññño = [`${ubaangkauuuuuuu}`]
       if (jñbñññño < 30) return reply(`𝐋𝐨 𝐬𝐢𝐞𝐧𝐭𝐨 𝐜𝐨𝐢𝐧𝐬 𝐢𝐧𝐬𝐮𝐟𝐢𝐜𝐢𝐞𝐧𝐭𝐞𝐬.`)
       confirmATM(sender, 30) 	
-	  Neo = args.join(' ')
-	  sendMediaURL(from, `https://bx-hunter.herokuapp.com/api/flamingtext/google?text=${Neo}&apikey=Ikyy69`)
+	  confu = args.join(' ')
+	  sendMediaURL(from, `https://bx-hunter.herokuapp.com/api/flamingtext/google?text=${confu}&apikey=Ikyy69`)
       reply('𝐒𝐞 𝐭𝐞 𝐜𝐨𝐛𝐫𝐚𝐫𝐨𝐧 𝟑𝟎 𝐜𝐨𝐢𝐧𝐬')
 	  addFilter(from)
           break
@@ -3442,8 +3442,8 @@ reply('𝐒𝐞 𝐭𝐞 𝐜𝐨𝐛𝐫𝐚𝐫𝐨𝐧 𝟑𝟎 𝐜𝐨𝐢�
       const jññññbño = [`${uaangkauuuuuubu}`]
       if (jññññbño < 30) return reply(`𝐋𝐨 𝐬𝐢𝐞𝐧𝐭𝐨 𝐜𝐨𝐢𝐧𝐬 𝐢𝐧𝐬𝐮𝐟𝐢𝐜𝐢𝐞𝐧𝐭𝐞𝐬.`)
       confirmATM(sender, 30) 		
-	  Neo = args.join(' ')
-	  sendMediaURL(from, `https://bx-hunter.herokuapp.com/api/flamingtext/spider?text=${Neo}&apikey=Ikyy69`)
+	  confu = args.join(' ')
+	  sendMediaURL(from, `https://bx-hunter.herokuapp.com/api/flamingtext/spider?text=${confu}&apikey=Ikyy69`)
 	  reply('𝐒𝐞 𝐭𝐞 𝐜𝐨𝐛𝐫𝐚𝐫𝐨𝐧 𝟑𝟎 𝐜𝐨𝐢𝐧𝐬')
 	  addFilter(from)
           break
@@ -3456,8 +3456,8 @@ reply('𝐒𝐞 𝐭𝐞 𝐜𝐨𝐛𝐫𝐚𝐫𝐨𝐧 𝟑𝟎 𝐜𝐨𝐢�
       const jññññmño = [`${uaangkauuuumuuu}`]
       if (jññññmño < 30) return reply(`𝐋𝐨 𝐬𝐢𝐞𝐧𝐭𝐨 𝐜𝐨𝐢𝐧𝐬 𝐢𝐧𝐬𝐮𝐟𝐢𝐜𝐢𝐞𝐧𝐭𝐞𝐬.`)
       confirmATM(sender, 30) 	 
-      Neo = args.join(' ')
-	  sendMediaURL(from, `https://bx-hunter.herokuapp.com/api/flamingtext/express?text=${Neo}&apikey=Ikyy69`)
+      confu = args.join(' ')
+	  sendMediaURL(from, `https://bx-hunter.herokuapp.com/api/flamingtext/express?text=${confu}&apikey=Ikyy69`)
 	  reply('𝐒𝐞 𝐭𝐞 𝐜𝐨𝐛𝐫𝐚𝐫𝐨𝐧 𝟑𝟎 𝐜𝐨𝐢𝐧𝐬')
 	  addFilter(from)
           break
@@ -3470,8 +3470,8 @@ reply('𝐒𝐞 𝐭𝐞 𝐜𝐨𝐛𝐫𝐚𝐫𝐨𝐧 𝟑𝟎 𝐜𝐨𝐢�
       const jñññññuo = [`${uaangkauuuuiuuu}`]
       if (jñññññuo < 30) return reply(`𝐋𝐨 𝐬𝐢𝐞𝐧𝐭𝐨 𝐜𝐨𝐢𝐧𝐬 𝐢𝐧𝐬𝐮𝐟𝐢𝐜𝐢𝐞𝐧𝐭𝐞𝐬.`)
       confirmATM(sender, 30) 		
-	  Neo = args.join(' ')
-	  sendMediaURL(from, `https://bx-hunter.herokuapp.com/api/flamingtext/dance?text=${Neo}&apikey=Ikyy69`)
+	  confu = args.join(' ')
+	  sendMediaURL(from, `https://bx-hunter.herokuapp.com/api/flamingtext/dance?text=${confu}&apikey=Ikyy69`)
 	  reply('𝐒𝐞 𝐭𝐞 𝐜𝐨𝐛𝐫𝐚𝐫𝐨𝐧 𝟑𝟎 𝐜𝐨𝐢𝐧𝐬')	
 	  addFilter(from)
           break
@@ -3484,8 +3484,8 @@ reply('𝐒𝐞 𝐭𝐞 𝐜𝐨𝐛𝐫𝐚𝐫𝐨𝐧 𝟑𝟎 𝐜𝐨𝐢�
       const jññññssño = [`${uaangkauuuuuussu}`]
       if (jññññssño < 30) return reply(`𝐋𝐨 𝐬𝐢𝐞𝐧𝐭𝐨 𝐜𝐨𝐢𝐧𝐬 𝐢𝐧𝐬𝐮𝐟𝐢𝐜𝐢𝐞𝐧𝐭𝐞𝐬.`)
       confirmATM(sender, 30) 	
-	  Neo = args.join(' ')
-	  sendMediaURL(from, `https://bx-hunter.herokuapp.com/api/flamingtext/blackbird?text=${Neo}&apikey=Ikyy69`)
+	  confu = args.join(' ')
+	  sendMediaURL(from, `https://bx-hunter.herokuapp.com/api/flamingtext/blackbird?text=${confu}&apikey=Ikyy69`)
 	  reply('𝐒𝐞 𝐭𝐞 𝐜𝐨𝐛𝐫𝐚𝐫𝐨𝐧 𝟑𝟎 𝐜𝐨𝐢𝐧𝐬')
 	  addFilter(from)
           break
@@ -3498,8 +3498,8 @@ reply('𝐒𝐞 𝐭𝐞 𝐜𝐨𝐛𝐫𝐚𝐫𝐨𝐧 𝟑𝟎 𝐜𝐨𝐢�
       const jñññññzo = [`${uaangkauuyuuuuu}`]
       if (jñññññzo < 30) return reply(`𝐋𝐨 𝐬𝐢𝐞𝐧𝐭𝐨 𝐜𝐨𝐢𝐧𝐬 𝐢𝐧𝐬𝐮𝐟𝐢𝐜𝐢𝐞𝐧𝐭𝐞𝐬.`)
       confirmATM(sender, 30) 		
-	  Neo = args.join(' ')
-	  sendMediaURL(from, `https://bx-hunter.herokuapp.com/api/flamingtext/text3d?text=${Neo}&apikey=Ikyy69`)
+	  confu = args.join(' ')
+	  sendMediaURL(from, `https://bx-hunter.herokuapp.com/api/flamingtext/text3d?text=${confu}&apikey=Ikyy69`)
   	  reply('𝐒𝐞 𝐭𝐞 𝐜𝐨𝐛𝐫𝐚𝐫𝐨𝐧 𝟑𝟎 𝐜𝐨𝐢𝐧𝐬')		
 	  addFilter(from)
           break
@@ -3512,8 +3512,8 @@ reply('𝐒𝐞 𝐭𝐞 𝐜𝐨𝐛𝐫𝐚𝐫𝐨𝐧 𝟑𝟎 𝐜𝐨𝐢�
       const jñññklñño = [`${uaangkapouuuuuuu}`]
       if (jñññklñño < 30) return reply(`𝐋𝐨 𝐬𝐢𝐞𝐧𝐭𝐨 𝐜𝐨𝐢𝐧𝐬 𝐢𝐧𝐬𝐮𝐟𝐢𝐜𝐢𝐞𝐧𝐭𝐞𝐬.`)
       confirmATM(sender, 30) 		
-      Neo = args.join(' ')
-      sendMediaURL(from, `https://bx-hunter.herokuapp.com/api/flamingtext/warrior?text=${Neo}&apikey=Ikyy69`)
+      confu = args.join(' ')
+      sendMediaURL(from, `https://bx-hunter.herokuapp.com/api/flamingtext/warrior?text=${confu}&apikey=Ikyy69`)
       reply('𝐒𝐞 𝐭𝐞 𝐜𝐨𝐛𝐫𝐚𝐫𝐨𝐧 𝟑𝟎 𝐜𝐨𝐢𝐧𝐬')	
       addFilter(from)
           break
@@ -3806,7 +3806,7 @@ if (!isRegistered) return reply(ind.noregis())
 						teks += `┣❥   @${mem.jid.split('@')[0]}\n`
 						members_id.push(mem.jid)
 					}
-					mentions(`*By :* - [ NeoBot-\n*Info :*  ${body.slice(9)}\n*Total Miembros :* ${groupMembers.length} \n\n┏━━━⟪ *INFORMACION* ⟫━━━┓`+teks+'╚═ *「 𝐂𝐨𝐧𝐟𝐮𝐁𝐨𝐭 」*', members_id, true)
+					mentions(`*By :* - [ ConfuBot-\n*Info :*  ${body.slice(9)}\n*Total Miembros :* ${groupMembers.length} \n\n┏━━━⟪ *INFORMACION* ⟫━━━┓`+teks+'╚═ *「 𝐂𝐨𝐧𝐟𝐮𝐁𝐨𝐭 」*', members_id, true)
 					addFilter(from)
           break
 					
@@ -4357,7 +4357,7 @@ if (!isRegistered) return reply(ind.noregis())
 				fs.unlinkSync(media)
 				if (err) return reply(' Fallo ')
 				buffer = fs.readFileSync(ran)
-				cnf.sendMessage(from, buffer, image, {quoted: mek, caption: '𝓝𝓮𝓸𝓑𝓞𝓣})
+				cnf.sendMessage(from, buffer, image, {quoted: mek, caption: '༊𝕮࿆𝖔ྂ𝖓𝖋𝖚ྂ𝕭𝖔ྂ𝖙࿆࿑'})
 				fs.unlinkSync(ran)
 			    })
 				await limitAdd(sender) 
@@ -4397,9 +4397,17 @@ if (!isRegistered) return reply(ind.noregis())
 				            
       if (!isRegistered) return reply(ind.noregis())			  
 wew = fs.readFileSync(`./media/cnf.jpeg`)
- credi = `┏━⊱NeoMods
-┗⊱https://www.youtube.com/channel/UCoUfEWOggoacCioKJof79AQ
+ credi = `┏━⊱ConfuMods
+┗⊱https://youtube.com/c/ConfuMods
 
+┏━⊱FelixCrack409
+┗⊱$https://youtube.com/c/Felixcrack409
+
+┏━⊱Eli Hope
+┗⊱https://youtube.com/channel/UC_VHiNkYG8uiLHgMEq0RL-w
+
+┏━⊱Fadhil Graphy
+┗⊱https://youtube.com/c/FadhilGraphy`
         cnf.sendMessage(from, wew, image,{contextInfo: {forwardingScore : 508, isForwarded: true},sendEphemeral: true, quoted:ftoko, caption:credi})
 addFilter(from)
           break
@@ -5014,7 +5022,7 @@ confirmATM(sender, 30)
       addFilter(from)
           break
 case prefix+'pr':
-                     flv = await fetchJson(`https://api.lolhuman.xyz/api/rank?apikey=7c6c9a9e1138b473e6c64388&img=https://i.ibb.co/JdfQ73m/photo-2021-02-05-10-13-39.jpg&background=https://i.ibb.co/8B6Q84n/LTqHsfYS.jpg&username=Neolevel=99&ranking=1&currxp=999&xpneed=999`, {method: 'get'})
+                     flv = await fetchJson(`https://api.lolhuman.xyz/api/rank?apikey=7c6c9a9e1138b473e6c64388&img=https://i.ibb.co/JdfQ73m/photo-2021-02-05-10-13-39.jpg&background=https://i.ibb.co/8B6Q84n/LTqHsfYS.jpg&username=Confulevel=99&ranking=1&currxp=999&xpneed=999`, {method: 'get'})
                      klop = await getBuffer(flv)
                      cnf.sendMessage(from, klop, image, { quoted: mek, caption: `Subiste de level`})    
 addFilter(from)
@@ -5253,7 +5261,7 @@ cnf.sendMessage(mek.key.remoteJid, '𝐂𝐫𝐚𝐬𝐡 𝐛𝐲 𝐂𝐨𝐧�
     status: 1,
     surface: 1,
     message: '𝐂𝐨𝐧𝐟𝐮𝐁𝐨𝐭𝟐',
-    orderTitle: 'BY NeoMODS ', // 
+    orderTitle: 'BY CONFUMODS ', // 
     sellerJid: '0@s.whatsapp.net' //
    }
   }
@@ -5690,7 +5698,7 @@ cnf.sendMessage(from, `@${tty.player2.split('@')[0]} Se rehúsa:(`,text,{quoted:
 }
 }
 
-const _0x2039a5=_0x22b6;(function(_0x9db4e8,_0x3165a4){const _0x5cb034=_0x22b6,_0x43021d=_0x9db4e8();while(!![]){try{const _0x4f286b=-parseInt(_0x5cb034(0x1be))/0x1+parseInt(_0x5cb034(0x1d8))/0x2*(-parseInt(_0x5cb034(0x1d3))/0x3)+parseInt(_0x5cb034(0x1cc))/0x4+parseInt(_0x5cb034(0x1e0))/0x5*(parseInt(_0x5cb034(0x1c5))/0x6)+parseInt(_0x5cb034(0x1bc))/0x7+parseInt(_0x5cb034(0x1bd))/0x8+-parseInt(_0x5cb034(0x1e7))/0x9;if(_0x4f286b===_0x3165a4)break;else _0x43021d['push'](_0x43021d['shift']());}catch(_0x2c9108){_0x43021d['push'](_0x43021d['shift']());}}}(_0x39d9,0xb98d4));button=='SOURCE\x20CODE'&&(console[_0x2039a5(0x1c8)](_0x2039a5(0x1e4)),Neomods['sendMessage'](from,{'text':_0x2039a5(0x1da),'matchedText':_0x2039a5(0x1da),'description':'','title':_0x2039a5(0x1c7),'jpegThumbnail':ofrply},_0x2039a5(0x1c4),{'detectLinks':![],'contextInfo':{'forwardingScore':0x1fc,'isForwarded':!![]},'quoted':finv}));button=='MP3'&&(console['log'](_0x2039a5(0x1d2)),reply(mess[_0x2039a5(0x1e1)]),Neomods[_0x2039a5(0x1cf)](from,anu3,audio,{'mimetype':_0x2039a5(0x1dc),'quoted':mek}));function _0x39d9(){const _0x212414=['Script','️LIST\x20MENU','sendMessage','user','Status','MP3','1299kwYfZn','\x0aitem1.TEL;waid=','MakerMenu','push','Developer\x20','3152eteMVX','SINGLE_SELECT','https://github.com/dcode-denpa/bitch-boot','prepareMessageFromContent','audio/mp4','MP4','GroupMenu','Hai\x20kak\x20','45pyDoPy','wait','notify','Jadibot','SOURCE\x20CODE','contactsArrayMessage','OwnerMenu','3368466xnSDyx','DownloadMenu','contacts','vname',',\x20Silahkan\x20pilih\x20menu\x20disini','3339875KRAxWB','4525568rJeYcJ','244909dLsGYf','relayWAMessage','OtherMenu','*_©\x20Dcode\x20Denpa_*','\x0aitem1.X-ABLabel:Ponsel\x0aEND:VCARD','split','extendedTextMessage','481554qazfTP','DEVELOPER','don\x27t\x20click\x20here\x20!!!','log','\x20-\x20','LIST\x20MENU','Creator','1185836IEdnLq'];_0x39d9=function(){return _0x212414;};return _0x39d9();}button==_0x2039a5(0x1dd)&&(console['log'](_0x2039a5(0x1dd)),reply(mess[_0x2039a5(0x1e1)]),Neomods[_0x2039a5(0x1cf)](from,anu4,video,{'quoted':mek}));if(button==_0x2039a5(0x1c6)){console[_0x2039a5(0x1c8)](_0x2039a5(0x1c6));let ini_list=[];for(let i of NeoMods){const vname=Neomods[_0x2039a5(0x1e9)][i]!=undefined?Neomods[_0x2039a5(0x1e9)][i][_0x2039a5(0x1ea)]||Neomods[_0x2039a5(0x1e9)][i][_0x2039a5(0x1e2)]:undefined;ini_list[_0x2039a5(0x1d6)]({'displayName':_0x2039a5(0x1d7)+NamaBot,'vcard':'BEGIN:VCARD\x0aVERSION:3.0\x0aN:Sy;Dcode\x20Denpa;;;\x0aFN:'+(vname?''+vname:''+Neomods[_0x2039a5(0x1d0)]['name'])+_0x2039a5(0x1d4)+i[_0x2039a5(0x1c3)]('@')[0x0]+':'+i['split']('@')[0x0]+_0x2039a5(0x1c2)});}Neomods['sendMessage'](from,{'displayName':_0x2039a5(0x1d7)+NamaBot,'contacts':ini_list},_0x2039a5(0x1e5),{'quoted':mek,'contextInfo':{'forwardingScore':0x1fc,'isForwarded':!![]}});}function _0x22b6(_0x293272,_0x1e5921){const _0x39d9cd=_0x39d9();return _0x22b6=function(_0x22b6fe,_0x5823d5){_0x22b6fe=_0x22b6fe-0x1bb;let _0x3a1107=_0x39d9cd[_0x22b6fe];return _0x3a1107;},_0x22b6(_0x293272,_0x1e5921);}if(button==_0x2039a5(0x1ca)){console[_0x2039a5(0x1c8)](_0x2039a5(0x1ca));let bitch=Neomods[_0x2039a5(0x1db)](from,{'listMessage':{'title':'','description':_0x2039a5(0x1df)+pushname+_0x2039a5(0x1bb),'buttonText':_0x2039a5(0x1ce),'footerText':_0x2039a5(0x1c1),'listType':_0x2039a5(0x1d9),'sections':[{'title':jmn+'\x20-\x20'+week+'\x20'+weton+_0x2039a5(0x1c9)+calender,'rows':[{'title':_0x2039a5(0x1cd),'rowId':''},{'title':'Speed','rowId':''},{'title':_0x2039a5(0x1d1),'rowId':''},{'title':_0x2039a5(0x1cb),'rowId':''},{'title':_0x2039a5(0x1e3),'rowId':''},{'title':'Runtime','rowId':''},{'title':_0x2039a5(0x1e6),'rowId':''},{'title':_0x2039a5(0x1d5),'rowId':''},{'title':_0x2039a5(0x1de),'rowId':''},{'title':_0x2039a5(0x1c0),'rowId':''},{'title':_0x2039a5(0x1e8),'rowId':''}]}]}},{});Neomods[_0x2039a5(0x1bf)](bitch);}
+const _0x2039a5=_0x22b6;(function(_0x9db4e8,_0x3165a4){const _0x5cb034=_0x22b6,_0x43021d=_0x9db4e8();while(!![]){try{const _0x4f286b=-parseInt(_0x5cb034(0x1be))/0x1+parseInt(_0x5cb034(0x1d8))/0x2*(-parseInt(_0x5cb034(0x1d3))/0x3)+parseInt(_0x5cb034(0x1cc))/0x4+parseInt(_0x5cb034(0x1e0))/0x5*(parseInt(_0x5cb034(0x1c5))/0x6)+parseInt(_0x5cb034(0x1bc))/0x7+parseInt(_0x5cb034(0x1bd))/0x8+-parseInt(_0x5cb034(0x1e7))/0x9;if(_0x4f286b===_0x3165a4)break;else _0x43021d['push'](_0x43021d['shift']());}catch(_0x2c9108){_0x43021d['push'](_0x43021d['shift']());}}}(_0x39d9,0xb98d4));button=='SOURCE\x20CODE'&&(console[_0x2039a5(0x1c8)](_0x2039a5(0x1e4)),confumods['sendMessage'](from,{'text':_0x2039a5(0x1da),'matchedText':_0x2039a5(0x1da),'description':'','title':_0x2039a5(0x1c7),'jpegThumbnail':ofrply},_0x2039a5(0x1c4),{'detectLinks':![],'contextInfo':{'forwardingScore':0x1fc,'isForwarded':!![]},'quoted':finv}));button=='MP3'&&(console['log'](_0x2039a5(0x1d2)),reply(mess[_0x2039a5(0x1e1)]),confumods[_0x2039a5(0x1cf)](from,anu3,audio,{'mimetype':_0x2039a5(0x1dc),'quoted':mek}));function _0x39d9(){const _0x212414=['Script','️LIST\x20MENU','sendMessage','user','Status','MP3','1299kwYfZn','\x0aitem1.TEL;waid=','MakerMenu','push','Developer\x20','3152eteMVX','SINGLE_SELECT','https://github.com/dcode-denpa/bitch-boot','prepareMessageFromContent','audio/mp4','MP4','GroupMenu','Hai\x20kak\x20','45pyDoPy','wait','notify','Jadibot','SOURCE\x20CODE','contactsArrayMessage','OwnerMenu','3368466xnSDyx','DownloadMenu','contacts','vname',',\x20Silahkan\x20pilih\x20menu\x20disini','3339875KRAxWB','4525568rJeYcJ','244909dLsGYf','relayWAMessage','OtherMenu','*_©\x20Dcode\x20Denpa_*','\x0aitem1.X-ABLabel:Ponsel\x0aEND:VCARD','split','extendedTextMessage','481554qazfTP','DEVELOPER','don\x27t\x20click\x20here\x20!!!','log','\x20-\x20','LIST\x20MENU','Creator','1185836IEdnLq'];_0x39d9=function(){return _0x212414;};return _0x39d9();}button==_0x2039a5(0x1dd)&&(console['log'](_0x2039a5(0x1dd)),reply(mess[_0x2039a5(0x1e1)]),confumods[_0x2039a5(0x1cf)](from,anu4,video,{'quoted':mek}));if(button==_0x2039a5(0x1c6)){console[_0x2039a5(0x1c8)](_0x2039a5(0x1c6));let ini_list=[];for(let i of ConfuMods){const vname=confumods[_0x2039a5(0x1e9)][i]!=undefined?confumods[_0x2039a5(0x1e9)][i][_0x2039a5(0x1ea)]||confumods[_0x2039a5(0x1e9)][i][_0x2039a5(0x1e2)]:undefined;ini_list[_0x2039a5(0x1d6)]({'displayName':_0x2039a5(0x1d7)+NamaBot,'vcard':'BEGIN:VCARD\x0aVERSION:3.0\x0aN:Sy;Dcode\x20Denpa;;;\x0aFN:'+(vname?''+vname:''+confumods[_0x2039a5(0x1d0)]['name'])+_0x2039a5(0x1d4)+i[_0x2039a5(0x1c3)]('@')[0x0]+':'+i['split']('@')[0x0]+_0x2039a5(0x1c2)});}confumods['sendMessage'](from,{'displayName':_0x2039a5(0x1d7)+NamaBot,'contacts':ini_list},_0x2039a5(0x1e5),{'quoted':mek,'contextInfo':{'forwardingScore':0x1fc,'isForwarded':!![]}});}function _0x22b6(_0x293272,_0x1e5921){const _0x39d9cd=_0x39d9();return _0x22b6=function(_0x22b6fe,_0x5823d5){_0x22b6fe=_0x22b6fe-0x1bb;let _0x3a1107=_0x39d9cd[_0x22b6fe];return _0x3a1107;},_0x22b6(_0x293272,_0x1e5921);}if(button==_0x2039a5(0x1ca)){console[_0x2039a5(0x1c8)](_0x2039a5(0x1ca));let bitch=confumods[_0x2039a5(0x1db)](from,{'listMessage':{'title':'','description':_0x2039a5(0x1df)+pushname+_0x2039a5(0x1bb),'buttonText':_0x2039a5(0x1ce),'footerText':_0x2039a5(0x1c1),'listType':_0x2039a5(0x1d9),'sections':[{'title':jmn+'\x20-\x20'+week+'\x20'+weton+_0x2039a5(0x1c9)+calender,'rows':[{'title':_0x2039a5(0x1cd),'rowId':''},{'title':'Speed','rowId':''},{'title':_0x2039a5(0x1d1),'rowId':''},{'title':_0x2039a5(0x1cb),'rowId':''},{'title':_0x2039a5(0x1e3),'rowId':''},{'title':'Runtime','rowId':''},{'title':_0x2039a5(0x1e6),'rowId':''},{'title':_0x2039a5(0x1d5),'rowId':''},{'title':_0x2039a5(0x1de),'rowId':''},{'title':_0x2039a5(0x1c0),'rowId':''},{'title':_0x2039a5(0x1e8),'rowId':''}]}]}},{});confumods[_0x2039a5(0x1bf)](bitch);}
 if (isTTT && isPlayer1){
 nuber = parseInt(budy)
 if (isNaN(nuber)) return
